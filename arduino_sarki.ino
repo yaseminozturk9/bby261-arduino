@@ -1,25 +1,3 @@
-/* Play Melody
- * -----------
- *
- * Program to play a simple melody
- *
- * Tones are created by quickly pulsing a speaker on and off
- *   using PWM, to create signature frequencies.
- *
- * Each note has a frequency, created by varying the period of
- *  vibration, measured in microseconds. We'll use pulse-width
- *  modulation (PWM) to create that vibration.
-
- * We calculate the pulse-width to be half the period; we pulse
- *  the speaker HIGH for 'pulse-width' microseconds, then LOW
- *  for 'pulse-width' microseconds.
- *  This pulsing creates a vibration of the desired frequency.
- *
- * (cleft) 2005 D. Cuartielles for K3
- * Refactoring and comments 2006 clay.shirky@nyu.edu
- * See NOTES in comments at end for possible improvements
- */
-
 // TONES  ==========================================
 // Start by defining the relationship between
 //       note, period, &  frequency.
@@ -116,34 +94,3 @@ void loop() {
     }
   }
 }
-
-/*
- * NOTES
- * The program purports to hold a tone for 'duration' microseconds.
- *  Lies lies lies! It holds for at least 'duration' microseconds, _plus_
- *  any overhead created by incremeting elapsed_time (could be in excess of
- *  3K microseconds) _plus_ overhead of looping and two digitalWrites()
- *  
- * As a result, a tone of 'duration' plays much more slowly than a rest
- *  of 'duration.' rest_count creates a loop variable to bring 'rest' beats
- *  in line with 'tone' beats of the same length.
- *
- * rest_count will be affected by chip architecture and speed, as well as
- *  overhead from any program mods. Past behavior is no guarantee of future
- *  performance. Your mileage may vary. Light fuse and get away.
- *  
- * This could use a number of enhancements:
- * ADD code to let the programmer specify how many times the melody should
- *     loop before stopping
- * ADD another octave
- * MOVE tempo, pause, and rest_count to #define statements
- * RE-WRITE to include volume, using analogWrite, as with the second program at
- *          http://www.arduino.cc/en/Tutorial/PlayMelody
- * ADD code to make the tempo settable by pot or other input device
- * ADD code to take tempo or volume settable by serial communication
- *          (Requires 0005 or higher.)
- * ADD code to create a tone offset (higer or lower) through pot etc
- * REPLACE random melody with opening bars to 'Smoke on the Water'
- *//*
-
-*/
