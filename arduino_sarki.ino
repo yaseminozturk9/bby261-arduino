@@ -1,4 +1,3 @@
-/* Bak Postacı Geliyor */
 /* Play Melody
  * -----------
  *
