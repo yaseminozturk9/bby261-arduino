@@ -64,4 +64,3 @@ void loop() {
     digitalWrite(arduLed4, LOW);
   }
 }
-© 2019 GitHub, Inc.
