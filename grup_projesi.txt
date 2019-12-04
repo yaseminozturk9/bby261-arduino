@@ -1,0 +1,16 @@
+Projenin Adı:
+ Arduino ile Mesafe Sensörü Kullanarak Hırsız Alarmı Yapımı
+
+Proje İçin Gerekli Olan Malzemeler:
+ 1-Arduino UNO
+ 2-Breadboard
+ 3-HC-SR04 Ultrasonik Sensör veya PIR Sensörü
+ 4-Buzzer
+ 5-Adet LED
+ 6-Adet 330Ω Direnç
+ 7-Jumper Kablo
+
+Grup Üyeleri:
+ 21661712 Yasemin Öztürk
+ 21661448 Serengül Gözaçık
+ 21661285 Eslem Aydemir
