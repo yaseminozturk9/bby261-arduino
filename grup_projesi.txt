@@ -1,5 +1,5 @@
 Projenin Adı:
- Arduino ile Isı Sensörü Kullanarak Ortam Isısına Duyarlı 
+ Arduino ile Isı Sensörü Kullanarak Ortam Isısına Duyarlı Sistem Yapımı
 
 Proje İçin Gerekli Olan Malzemeler:
  1-Arduino UNO
@@ -10,6 +10,8 @@ Proje İçin Gerekli Olan Malzemeler:
  6-1 Adet 330Ω Direnç
  7-1 Adet 10K Ohm Direnç
  8-Jumper Kablo
+
+Yaptığımız projede LM35 ısı sensörü ile ortam ısısını algılayıp, bu ısı belirlediğimiz değer olan >=25 derece olduğunda bize uyarı vermek amacıyla Led'den kırmızı ışık yanıp aynı zaman da Buzzer'ın çaldığı bir sistemden oluşmaktadır.
 
 Grup Üyeleri:
  21661712 Yasemin Öztürk
