@@ -1,14 +1,15 @@
 Projenin Adı:
- Arduino ile Mesafe Sensörü Kullanarak Hırsız Alarmı Yapımı
+ Arduino ile Isı Sensörü Kullanarak Ortam Isısına Duyarlı 
 
 Proje İçin Gerekli Olan Malzemeler:
  1-Arduino UNO
  2-Breadboard
- 3-HC-SR04 Ultrasonik Sensör veya PIR Sensörü
+ 3-LM35 Sıcaklık Sensörü
  4-Buzzer
- 5-Adet LED
- 6-Adet 330Ω Direnç
- 7-Jumper Kablo
+ 5-1 Adet LED
+ 6-1 Adet 330Ω Direnç
+ 7-1 Adet 10K Ohm Direnç
+ 8-Jumper Kablo
 
 Grup Üyeleri:
  21661712 Yasemin Öztürk
